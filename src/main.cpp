@@ -9,8 +9,8 @@ const int laserCount = 5;
 int lasers [laserCount] = {12,13,5,23,19};
 
 // WIFI SETUP
-const char* ssid = "o2-WLAN-34A0"; // CHANGE FOR YOUR SETUP
-const char* password = "28TVQ8R3EGXQL349"; // CHANGE FOR YOUR SETUP
+const char* ssid = "ssid"; // CHANGE FOR YOUR SETUP
+const char* password = "pw"; // CHANGE FOR YOUR SETUP
 
 WiFiUDP UdpSend;
 ArtnetWifi artnet;
